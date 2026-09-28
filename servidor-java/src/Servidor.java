@@ -103,8 +103,6 @@ public class Servidor {
                     );
                 }
 
-                connection.iniciar();
-
                 // Inicia as threads de leitura e escrita da conexão.
                 connection.iniciar();
 
