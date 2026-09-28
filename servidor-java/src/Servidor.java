@@ -11,7 +11,7 @@ public class Servidor {
 
     private static final int PORTA = 5000;
 
-    private static final int MAX_CLIENTS = 1000;
+    private static final int MAX_CLIENTS = 3;
 
     private static final Set<Connection> conexoesAtivas =
             Collections.synchronizedSet(new HashSet<>());
